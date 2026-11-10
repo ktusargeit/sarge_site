@@ -1,0 +1,50 @@
+{
+  "data": [
+    {
+      "id": "1",
+      "title": "İHA Takımı",
+      "desc": "Otonom insansız hava araçları tasarımı, gövde aerodinamiği, aviyonik sistemler ve yapay zeka destekli görev icrası.",
+      "activeProject": "ALACA İHA",
+      "isOpen": true,
+      "applicationUrl": "https://forms.google.com",
+      "story": "2019 yılında kurulan İHA Takımımız, TEKNOFEST Savaşan İHA ve Sabit Kanat kategorilerinde KTÜ’yü başarıyla temsil etmiştir. Tamamen yerli kompozit gövde üretimi ve otonom takip algoritmaları geliştirmektedir."
+    },
+    {
+      "id": "2",
+      "title": "Roket Takımı",
+      "desc": "Katı yakıtlı yüksek irtifa roket sistemleri, aviyonik uçuş bilgisayarları ve kademeli paraşüt kurtarma mekanizmaları.",
+      "activeProject": "GÖKÇEN Roket",
+      "isOpen": true,
+      "applicationUrl": "https://forms.google.com",
+      "story": "Aksaray Roket Atış Alanı’nda gerçekleştirdiği başarılı 3.000m ve 5.000m irtifa atışlarıyla SARGE bünyesindeki en köklü ekiplerden biridir."
+    },
+    {
+      "id": "3",
+      "title": "Jet Motoru Takımı",
+      "desc": "Mikro jet motoru çekirdek tasarımı, yanma odası simülasyonları ve yüksek devirli turbo bileşenlerin imalatı.",
+      "activeProject": "J-01 Turbojet",
+      "isOpen": false,
+      "applicationUrl": "",
+      "story": "Milli jet motoru teknolojileri alanında akademik danışmanlarımız ve atölye imkanlarımızla KTÜ’nün ilk prototip mikro turbojet motorunu üretmekteyiz."
+    },
+    {
+      "id": "4",
+      "title": "Elektronik Harp & Otonom Sistemler",
+      "desc": "Anti-drone savunma sistemleri, RF sinyal karıştırma, yapay görme ve sürü algoritması geliştirme.",
+      "activeProject": "EH-Kalkanı",
+      "isOpen": true,
+      "applicationUrl": "https://forms.google.com",
+      "story": "Modern muharebe sahasının en kritik alanı olan siber ve elektronik harp sahasında milli yazılım ve donanım çözümleri üretmektedir."
+    }
+  ],
+  "socialUnit": {
+    "desc": "Sosyal birim; topluluğumuzun sponsorluk & finans, sosyal medya & tanıtım, etkinlik & organizasyon, medya prodüksiyon ve insan kaynakları süreçlerini yürüten idari ve yaratıcı ekibidir. Projelerimizin finansal olarak desteklenmesi, kurumsal anlaşmaların yapılması, dev etkinliklerin yönetilmesi ve SARGE sesinin yüzbinlere duyurulması bu ekip sayesinde gerçekleşir.",
+    "isOpen": true,
+    "applicationUrl": "https://forms.google.com"
+  },
+  "expoUnit": {
+    "desc": "Karadeniz Teknik Üniversitesi bünyesinde organize edilen, bölgenin ve üniversitemizin en kapsamlı savunma sanayii ve teknoloji fuarı SARGE EXPO; savunma sanayiimizin lider firmalarını, mühendislik takımlarını ve binlerce ziyaretçiyi bir araya getiriyor. Fuar organizasyon komitesinde görev almak veya firma/bireysel katılımcı olmak için detayları inceleyebilir ve başvuruda bulunabilirsiniz.",
+    "isOpen": true,
+    "applicationUrl": "https://forms.google.com"
+  }
+}

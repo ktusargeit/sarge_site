@@ -1,0 +1,30 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // 1. Content (Site settings, Projects, Spotlights, Sponsors, Teams, etc.)
+    match /content/{docId} {
+      allow read, write: if true;
+    }
+
+    // 2. Gallery (Workshop photos, activities)
+    match /gallery/{imageId} {
+      allow read, write: if true;
+    }
+
+    // 3. Announcements (Events, news)
+    match /announcements/{announcementId} {
+      allow read, write: if true;
+    }
+
+    // 4. Form Submissions (Student applications, contact forms)
+    match /form_submissions/{submissionId} {
+      allow read, write: if true;
+    }
+
+    // Default Deny All other paths
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}

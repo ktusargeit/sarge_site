@@ -1,0 +1,35 @@
+{
+  "projectInfo": {
+    "name": "SARGE Admin",
+    "ownerEmail": "duzenlimuhammedali5@gmail.com"
+  },
+  "collections": [
+    {
+      "name": "gallery",
+      "description": "Gallery images",
+      "documentId": "auto-generated",
+      "fields": [
+        { "name": "title", "type": "string" },
+        { "name": "category", "type": "string" },
+        { "name": "imageUrl", "type": "string" },
+        { "name": "timestamp", "type": "timestamp" }
+      ],
+      "rules": {
+        "read": "true",
+        "write": "request.auth != null && request.auth.token.email == 'duzenlimuhammedali5@gmail.com'"
+      }
+    },
+    {
+      "name": "content",
+      "description": "General content and strings for the site",
+      "documentId": "fixed (e.g. 'home', 'about', 'contact')",
+      "fields": [
+        { "name": "data", "type": "map" }
+      ],
+      "rules": {
+        "read": "true",
+        "write": "request.auth != null && request.auth.token.email == 'duzenlimuhammedali5@gmail.com'"
+      }
+    }
+  ]
+}

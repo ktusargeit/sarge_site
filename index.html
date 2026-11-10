@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="theme-color" content="#070a12" />
+<title>KTÜ SARGE - Savunma ve Ar-Ge Topluluğu</title>
+<meta name="description" content="Karadeniz Teknik Üniversitesi Savunma ve Ar-Ge Topluluğu (SARGE) resmi web sitesi. Projelerimiz, SARGE EXPO fuarı, atölye galerisi, sponsorlar ve üyelik başvuruları." />
+<meta property="og:title" content="KTÜ SARGE - Savunma ve Ar-Ge Topluluğu" />
+<meta property="og:description" content="Karadeniz Teknik Üniversitesi Savunma ve Ar-Ge Topluluğu (SARGE) resmi web sitesi. Projelerimiz, SARGE EXPO fuarı, atölye galerisi, sponsorlar ve üyelik başvuruları." />
+<meta property="og:url" content="https://www.sarge-ktu.com/" />
+<link rel="canonical" href="https://www.sarge-ktu.com/" />
+<meta name="robots" content="index, follow" />
+<meta name="google-site-verification" content="googlebf53843bbe2e61be" />
+
+<!-- Favicons & Google Search Logo (KTÜ SARGE Official Logo) -->
+<link rel="icon" href="/favicon.ico?v=2" sizes="any" />
+<link rel="icon" type="image/png" sizes="48x48" href="/favicon-48x48.png?v=2" />
+<link rel="icon" type="image/png" sizes="192x192" href="/favicon.png?v=2" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=2" />
+
+<!-- Social Preview & Search Engine Meta -->
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="KTÜ SARGE" />
+<meta property="og:image" content="https://www.sarge-ktu.com/icon-512.png" />
+<meta property="og:image:width" content="512" />
+<meta property="og:image:height" content="512" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="KTÜ SARGE - Savunma ve Ar-Ge Topluluğu" />
+<meta name="twitter:description" content="Karadeniz Teknik Üniversitesi Savunma ve Ar-Ge Topluluğu resmi web sitesi." />
+<meta name="twitter:image" content="https://www.sarge-ktu.com/icon-512.png" />
+
+<!-- Google Rich Snippets / Logo Structured Data (Organization Schema) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "KTÜ SARGE",
+  "alternateName": "Karadeniz Teknik Üniversitesi Savunma ve Ar-Ge Topluluğu",
+  "url": "https://www.sarge-ktu.com/",
+  "logo": "https://www.sarge-ktu.com/icon-512.png",
+  "sameAs": [
+    "https://www.instagram.com/ktu.sarge/",
+    "https://www.linkedin.com/company/ktusarge/",
+    "https://github.com/ktusarge",
+    "https://www.youtube.com/@ktusarge"
+  ]
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,500;0,600;0,700;0,800;0,900;1,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<script>
+  (function() {
+    try {
+      var p = window.location.pathname;
+      if (p.indexOf('//') !== -1 || p === '/about' || p.indexOf('/about/') === 0 || p === '/hakkimizda' || p.indexOf('/hakkimizda/') === 0) {
+        window.location.replace('/' + (window.location.search || '') + (window.location.hash || ''));
+      }
+    } catch(e) {}
+  })();
+</script>
+<style>
+  html, body {
+    background-color: #070a12 !important;
+    color: #f8fafc;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+  #root {
+    min-height: 100vh;
+    background-color: #070a12;
+  }
+  .initial-splash {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #09090b;
+  }
+  .initial-spinner {
+    width: 36px;
+    height: 36px;
+    border: 3px solid rgba(56, 189, 248, 0.2);
+    border-top-color: #38bdf8;
+    border-radius: 50%;
+    animation: initSpin 0.75s linear infinite;
+  }
+  @keyframes initSpin {
+    to { transform: rotate(360deg); }
+  }
+</style>
+</head>
+<body class="bg-[#09090b] text-[#E2E8F0]">
+<div id="root">
+  <div class="initial-splash">
+    <div class="initial-spinner"></div>
+  </div>
+</div>
+<script type="module" src="/src/main.tsx"></script>
+</body>
+</html>

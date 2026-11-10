@@ -1,0 +1,38 @@
+{
+  "data": [
+    {
+      "id": "yamac-iha",
+      "name": "YAMAÇ",
+      "code": "İHA-YAMAÇ-01",
+      "category": "havacilik",
+      "categoryLabel": "SARGE İHA Takımı",
+      "status": "Geliştirmede",
+      "year": "2026",
+      "competition": "TEKNOFEST İnsansız Hava Araçları Yarışması",
+      "achievement": "Tasarım ve İmalat Aşaması",
+      "shortDesc": "KTÜ SARGE bünyesinde geliştirilen özgün insansız hava aracı projemiz.",
+      "fullDesc": "YAMAÇ, Karadeniz Teknik Üniversitesi Savunma ve Havacılık Teknolojileri Topluluğu (SARGE) bünyesinde özgün tasarım, analiz ve imalat aşamalarından geçirilerek geliştirilen İHA platformumuzdur.",
+      "image": "",
+      "gallery": [],
+      "specs": [
+        {
+          "label": "Takım Adı",
+          "value": "SARGE İHA Takımı"
+        },
+        {
+          "label": "Proje Adı",
+          "value": "YAMAÇ"
+        },
+        {
+          "label": "Gövde Yapısı",
+          "value": "Kompozit & Karbon Gövde"
+        },
+        {
+          "label": "Görev Tipi",
+          "value": "Otonom Uçuş ve Keşif"
+        }
+      ],
+      "isFeatured": true
+    }
+  ]
+}

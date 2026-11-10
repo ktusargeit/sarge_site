@@ -1,0 +1,12 @@
+node_modules/
+build/
+dist/
+coverage/
+.DS_Store
+*.log
+security_logs.json
+db_admins.json
+firebase-service-account*.json
+*-firebase-adminsdk-*.json
+.env*
+!.env.example

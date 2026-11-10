@@ -1,0 +1,6 @@
+{
+  "name": "KTÜ SARGE - Savunma ve Ar-Ge Topluluğu",
+  "description": "Karadeniz Teknik Üniversitesi Savunma ve Ar-Ge Topluluğu (SARGE) resmi web sitesi. Projelerimiz, SARGE EXPO fuarı, atölye galerisi, sponsorlar ve üyelik başvuruları.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
